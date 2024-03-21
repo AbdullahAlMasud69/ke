@@ -1,0 +1,238 @@
+.MuseoSans-500 { 
+	font-family: 'MuseoSans-500';
+	font-weight: normal;
+	font-style: normal;
+}
+.custom > li > a {
+
+color:white; text-transform:uppercase;letter-spacing: 0.1em;font-size:13px;padding:3px;display:block;  margin-top:1em;
+font-weight:bold;
+padding-left:10px; padding-right:10px;
+margin-left:0px; margin-right:0px;
+}
+.custom > li > a:hover {
+
+	background-color: #4E9CA2;
+}
+.custom > li > a.active {
+
+	background-color: #4E9CA2;
+}
+
+.navbar-brand
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+	padding:0px;
+}
+
+.btn
+{
+	
+	border-left:0px;
+	border-width: 0 0 2px 0;
+	display:inline-block;
+	line-height:24px;
+	letter-spacing: .1em;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	padding: 14px 30px 12px 30px;
+	font-size:1.3em; 
+	line-height:24px;
+	
+}
+
+.btn-primary
+{
+	
+	background-color: #f1693c;
+	border-bottom-color: #c94727;
+}
+
+.btn-primary:hover
+{
+	background-color:#F2744A;
+	border-bottom-color: #c94727;
+
+}
+
+.list-group > a:hover
+{
+	background-color: #62C3CA;
+	color:white;
+}
+
+.btn-default
+{
+	color: #555555;
+	
+	background-color: #eeeeee;
+	border-bottom-color: #CCCCCC;
+}
+
+.btn-default:hover
+{
+	background-color: #F6F6F6;
+	border-bottom-color: #CCCCCC;
+}
+.btn-small
+{
+	padding: 6px 20px 4px 20px;
+text-transform: uppercase;
+font-size: .8em;
+font-weight: bold;
+	border-radius: 3px;
+}
+
+.with-background
+{
+	background: url(images/monsterbg_02.png) no-repeat; 
+	background-width: 100%;
+background-size: cover;
+vertical-align: top;
+}
+
+.mainnav a
+{
+	margin-left:5px;
+	margin-right:5px;
+}
+
+h1
+{
+	font-family: 'MuseoSans-500', 'Muli', 'Lucida Grande', Arial, sans-serif;
+font-size: 2.5em;
+line-height: 1.35em;
+}
+
+h5
+{
+	font-family: 'MuseoSans-500', 'Muli', 'Lucida Grande', Arial, sans-serif;
+font-size: 1.1em;
+line-height: 1.5em;
+}
+
+
+// modified
+
+a
+{
+	
+}
+a.gradelist-li-link
+{
+		color:black !important;
+	
+	text-decoration:none;
+}
+
+.main-option:hover
+{
+	border-color:white !important;
+	cursor: pointer !important;
+}
+
+.full-height
+{
+	min-height: calc(100vh - 73px);
+}
+
+
+
+/* for carousel quotes */
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+    /* Control buttons  */
+    /* Previous button  */
+    /* Next button  */
+    /* Changes the position of the indicators */
+    /* Changes the color of the indicators */
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #555555;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-control.left {
+    left: 0px;
+}
+#quote-carousel .carousel-control.right {
+    right: 0px;
+}
+#quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+    border: 4px solid #CCC;
+    border-radius: 50px;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+#quote-carousel .carousel-indicators .active {
+    background: #333333;
+    width: 128px;
+    height: 128px;
+    border-radius: 100px;
+    border-color: #f33;
+    opacity: 1;
+    overflow: hidden;
+}
+.carousel-inner {
+    min-height: 300px;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+.popover {
+	background: ;
+}
+
+.popover { display: none; position: inherit!important; float: left; left: inherit!important; top: inherit!important; margin-top: 30px;}
+.tttr .popover{ float: right}
+.tttr img{ float: right!important; margin-right: 0px!important; margin-left: 30px;}
+.ttr img{ float: left; margin-right: 30px;}
+.arrow{ position: inherit; top: 47%!important}
+.ttr{ padding-bottom: 20px;}
+
+.am-footer .nav li a {
+    color: #a6a6a6;
+    font-weight: 500;
+    font-size: 0.85em;
+    text-transform: uppercase;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.copyright
+{
+	   color: #a6a6a6;
+    font-weight: 500;
+    font-size: 0.85em;
+	padding-top:10px; 
+}
+.am-footer
+{
+	padding:15px;
+}
